@@ -1,0 +1,13 @@
+/* Suisse Intl — из лицензионных OTF дизайнера, переупаковано в woff2 и урезано
+   до латиницы + кириллицы + ₽ № и типографики. 5 начертаний, 85 КБ суммарно. */
+
+@font-face { font-family: "Suisse Intl"; font-style: normal; font-weight: 400;
+  src: url("fonts/SuisseIntl-Regular.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Suisse Intl"; font-style: normal; font-weight: 450;
+  src: url("fonts/SuisseIntl-Book.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Suisse Intl"; font-style: normal; font-weight: 500;
+  src: url("fonts/SuisseIntl-Medium.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Suisse Intl"; font-style: normal; font-weight: 600;
+  src: url("fonts/SuisseIntl-SemiBold.woff2") format("woff2"); font-display: swap; }
+@font-face { font-family: "Suisse Intl"; font-style: normal; font-weight: 700;
+  src: url("fonts/SuisseIntl-Bold.woff2") format("woff2"); font-display: swap; }
