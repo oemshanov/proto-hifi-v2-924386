@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Питомец">
+<meta name="theme-color" content="#ECF3F9">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/app-180.png">
+<meta name="robots" content="noindex, nofollow">
+<title>4 Лапы · Питомец — хай-фай</title>
+<link rel="preload" as="font" type="font/woff2" href="fonts/SuisseIntl-Regular.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="fonts/SuisseIntl-SemiBold.woff2" crossorigin>
+<link rel="preload" as="image" href="icons/tab-home.svg">
+<link rel="preload" as="image" href="icons/tab-catalog.svg">
+<link rel="preload" as="image" href="icons/tab-pets-on.svg">
+<link rel="preload" as="image" href="icons/tab-cart.svg">
+<link rel="preload" as="image" href="icons/tab-favorite.svg">
+<link rel="preload" as="image" href="icons/tab-profile.svg">
+<link rel="stylesheet" href="styles.css">
+<script>
+  if (!location.search && !localStorage.getItem("4lapy-hifi-v1")) location.replace("?state=empty");
+</script>
+</head>
+<body>
+  <div class="device">
+    <div class="app">
+      <div class="top" id="top">
+        <div class="statusbar" aria-hidden="true">
+          <span id="clock">12:48</span>
+          <span class="ind">
+            <img src="icons/sb-cellular.svg" width="17" height="11" alt="">
+            <img src="icons/sb-wifi.svg" width="15" height="11" alt="">
+            <img src="icons/sb-battery.svg" width="25" height="11" alt="">
+          </span>
+        </div>
+        <header class="topbar" id="topbar"><h1>Питомец</h1></header>
+      </div>
+      <main class="view" id="view"></main>
+      <div id="footer"></div>   <!-- нижний контейнер формы живёт вне скроллера: иначе iOS Safari кладёт его под шторку -->
+      <nav class="tabbar" id="tabbar"></nav>
+
+      <div class="sheet-bg" id="sheetbg"></div>
+      <div class="sheet" id="sheet"></div>
+      <div id="crop" hidden></div>
+      <div id="alert" hidden></div>
+      <div id="panel" hidden></div>
+      <div id="ios" hidden></div>
+      <div id="install" hidden></div>
+      <div class="toast" id="toast"></div>
+    </div>
+  </div>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

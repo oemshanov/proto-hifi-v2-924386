@@ -1,0 +1,49 @@
+/* Токены сняты с кадров дизайнера в Figma (секция «Юзкейсы · Питомец · Дизайн»,
+   файл bttjGNXjTTApYOXpcWuLg7). Имена — как в ките клиента, чтобы сверка шла один в один.
+   Значения не подбираются глазами: всё приходит отсюда. */
+
+:root{
+  --font: "Suisse Intl", -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, sans-serif;
+
+  /* mono */
+  --mono-white:      #FEFEFE;   /* mono/white — фон карточек и кнопок */
+  --mono-bg:         #ECF3F9;   /* mono/bg + tags — фон экрана */
+  --mono-text:       #000000;   /* new/gray-darkest */
+  --mono-text-main:  #2E2E32;   /* mono/text+icon, main */
+  --mono-text-2:     #95A4B2;   /* mono/text-2 — подписи */
+  --mono-text-3:     #C7D6E1;   /* mono/text-3, icon line — таббар неактивный */
+
+  /* brand */
+  --brand-pink:      #F2B5BE;
+  --brand-violet:    #6C5CFC;   /* brand/purple text — ссылки и «Добавить фото» */
+  --brand-purple:    #8F82FF;   /* brand/purple — бейдж «защита до …» */
+  --yellow:          #FFE000;   /* выбранный радио и чекбокс */
+  --ux-error:        #FE003D;   /* ux/error — звёздочка обязательного поля */
+  --mono-field:      #DAE6EF;   /* mono/icon filed — рамка поля */
+
+  /* типографика: вес размер/интерлиньяж */
+  --t-22-bold:   700 22px/1    var(--font);  /* new/22 bold - numbers — заголовок экрана */
+  --t-19-semi:   600 19px/24px var(--font);  /* заголовок пустого состояния */
+  --t-17-semi:   600 17px/19px var(--font);  /* new/17 semi - category header */
+  --t-16-semi:   600 16px/18px var(--font);  /* new/16 semi - subheader — заголовок навбара */
+  --t-16-med:    500 16px/20px var(--font);  /* название плитки */
+  --t-14-med:    500 14px/16px var(--font);  /* new/14 med - tags, inputs, links */
+  --t-15-semi:   600 15px/16px var(--font);  /* new/15 semi - button text */
+  --t-14-reg:    400 14px/20px var(--font);  /* new/14 reg - text body */
+  --t-12-reg:    400 12px/16px var(--font);  /* new/12 reg - caption */
+  --t-12-med:    500 12px/14px var(--font);  /* кнопка «Отметить», метка «Новинка» */
+  --t-11-med:    500 11px/11px var(--font);  /* подписи таббара — кадр 79:9305 и кит */
+  --t-9-semi:    600 9px/8px   var(--font);  /* new/9 semi - counter */
+
+  /* тени */
+  --shadow-btn:    1px 2px 16px rgba(24, 48, 69, .10);   /* Тень у кнопок */
+  --shadow-tabbar: 0   2px 16px rgba(56, 85, 112, .10);  /* Тень у таббара */
+
+  /* геометрия */
+  --btn-h:        56px;
+  --btn-r:        30px;
+  --r-tile:       14px;
+  --r-card:       24px;
+  --r-screen:     20px;
+  --pad-screen:   16px;
+}
